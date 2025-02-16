@@ -1,0 +1,402 @@
+.create-task-container,
+.task-list-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.task-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.filters-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.task-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task-card h3 {
+  margin: 0 0 10px 0;
+  color: #2874f0;
+}
+
+.task-description {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.task-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.task-details span {
+  font-size: 14px;
+  color: #444;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.interest-btn {
+  background: #2874f0;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.interest-btn:hover {
+  background: #1c5ac7;
+}
+
+@media (max-width: 768px) {
+  .tasks-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Add these styles to your existing task.css file */
+
+.edit-task-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .status-controls {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .status-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .status-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #ddd;
+  }
+  
+  .status-btn.active {
+    background: #2874f0;
+    color: white;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .save-btn {
+    flex: 1;
+    background: #2874f0;
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: #c82333;
+  }
+  
+  .edit-btn {
+    background: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-btn:hover {
+    background: #218838;
+  }
+  
+  .status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status.open {
+    background: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .status.assigned {
+    background: #fff3e0;
+    color: #f57c00;
+  }
+  
+  .status.completed {
+    background: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  /* Add these styles to your existing task.css file */
+
+.filters-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .filters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .reset-btn {
+    padding: 8px 16px;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reset-btn:hover {
+    background: #5a6268;
+  }
+  
+  .filters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-group label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  .filter-group select,
+  .filter-group input {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .range-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .no-tasks {
+    text-align: center;
+    padding: 40px;
+    color: #6c757d;
+    font-size: 18px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .task-type,
+  .task-budget,
+  .task-department,
+  .task-deadline,
+  .task-status {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .status-open {
+    color: #28a745;
+    background: #e8f5e9;
+  }
+  
+  .status-assigned {
+    color: #fd7e14;
+    background: #fff3e0;
+  }
+  
+  .status-completed {
+    color: #6c757d;
+    background: #f8f9fa;
+  }
+  
+  @media (max-width: 768px) {
+    .filters-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .range-inputs {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Add these styles to your existing task.css */
+
+.filter-presets {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .preset-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .preset-btn {
+    padding: 8px 16px;
+    background: #e9ecef;
+    border: none;
+    border-radius: 20px;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .preset-btn:hover {
+    background: #2874f0;
+    color: white;
+  }
+  
+  .skills-select {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .skill-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .pagination-btn {
+    padding: 8px 16px;
+    background: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-btn:disabled {
+    background: #ced4da;
+    cursor: not-allowed;
+  }
+  
+  .pagination-info {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .page-size-select {
+    padding: 6px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-left: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .pagination-controls {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .preset-buttons {
+      flex-direction: column;
+    }
+    
+    .skills-select {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+  }
