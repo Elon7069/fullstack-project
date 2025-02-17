@@ -1,4 +1,4 @@
-****College Task Exchange Platform****
+__College Task Exchange Platform__
 
 
 **What Does the Platform Do?**
