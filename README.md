@@ -1,4 +1,4 @@
-**College Task Exchange Platform**
+****College Task Exchange Platform****
 
 
 **What Does the Platform Do?**
@@ -8,16 +8,25 @@ This platform connects college students who need help with assignments/files (Ta
 **Tech Stack**
 
 Client (Frontend): React.js, Bootstrap
+
 Server (Backend): Node.js, Express.js
+
 Database: MySQL
+
 Authentication: Firebase
 
 **Features**
 
 User Registration and Login
+
 Task Posting
+
 Task Browsing and Filtering
+
 Connection System (Offline)
+
 User Profiles
+
 Rating and Review System
+
 Search and Filters
