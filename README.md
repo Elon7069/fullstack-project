@@ -5,15 +5,15 @@ ____College Task Exchange Platform____
 
 This platform connects college students who need help with assignments/files (Task Posters) and students who want to earn money by completing tasks (Task Solvers). Task Posters can post tasks, and Task Solvers can browse and complete them. All interactions start online, but tasks and payments are handled offline.
 
-**Tech Stack**
+###**Tech Stack**
 
-Client (Frontend): React.js, Bootstrap
+> Client (Frontend): React.js, Bootstrap
 
-Server (Backend): Node.js, Express.js
+> Server (Backend): Node.js, Express.js
 
-Database: MySQL
+> Database: MySQL
 
-Authentication: Firebase
+> Authentication: Firebase
 
 **Features**
 
