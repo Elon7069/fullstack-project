@@ -1,4 +1,4 @@
-Step 1: Check package.json Files
+## Step 1: Check package.json Files
 Frontend:
 
 Open the package.json file in your frontend folder.
@@ -17,6 +17,7 @@ Here’s a general template for listing dependencies. Replace the placeholders w
 Frontend Dependencies
 json
 Copy
+```
 "dependencies": {
   "react": "^18.2.0",
   "react-dom": "^18.2.0",
@@ -26,7 +27,9 @@ Copy
   "react-redux": "^8.0.5",
   "sass": "^1.58.3",
   "bootstrap": "^5.2.3"
-},
+}
+```
+,
 "devDependencies": {
   "vite": "^4.1.0",
   "eslint": "^8.34.0",
