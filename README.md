@@ -15,18 +15,18 @@ This platform connects college students who need help with assignments/files (Ta
 
 > Authentication: Firebase
 
-**Features**
+###**Features**
 
-User Registration and Login
+> User Registration and Login
 
-Task Posting
+> Task Posting
 
-Task Browsing and Filtering
+> Task Browsing and Filtering
 
-Connection System (Offline)
+> Connection System (Offline)
 
-User Profiles
+> User Profiles
 
-Rating and Review System
+> Rating and Review System
 
-Search and Filters
+> Search and Filters
